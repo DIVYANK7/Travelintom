@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Travelintom/static/css/main.0161c1ca.css",
+    "main.js": "/Travelintom/static/js/main.e84027ba.js",
+    "static/media/dp.jpeg": "/Travelintom/static/media/dp.536b7761a1ce12e4843d.jpeg",
+    "index.html": "/Travelintom/index.html",
+    "main.0161c1ca.css.map": "/Travelintom/static/css/main.0161c1ca.css.map",
+    "main.e84027ba.js.map": "/Travelintom/static/js/main.e84027ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0161c1ca.css",
+    "static/js/main.e84027ba.js"
+  ]
+}
