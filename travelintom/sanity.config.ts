@@ -3,9 +3,11 @@ import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
+
 export default defineConfig({
   name: 'default',
   title: 'travelintom',
+  basePath: '/studio',
 
   projectId: 'v0ji426j',
   dataset: 'production',

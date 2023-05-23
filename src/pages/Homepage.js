@@ -45,7 +45,7 @@ export default function Homepage() {
       ) : (
         <>
           {stories[0] && (
-            <Link to={`/blog/${stories[0].slug.current}`}>
+            <Link to={`/blog/${stories[0].slug.current}`} >
               <section className="max-w-7xl mx-auto my-20 px-5">
                 <article className="relative">
                   {stories[0].mainImage && (
@@ -81,7 +81,7 @@ export default function Homepage() {
 
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-5 mb-10">
         {stories.map((story) => (
-          <Link to={`/blog/${story.slug.current}`} key={story.slug.current}>
+          <Link to={`/blog/${story.slug.current}`} key={story.slug.current} >
             <article className="border border-slate-400 dark:border-slate-800 rounded-lg overflow-hidden hover:bg-slate-200 dark:hover:bg-slate-800 transition-all duration-200">
               {story.mainImage && (
                 <img
@@ -109,6 +109,7 @@ export default function Homepage() {
     <div className="max-w-7xl mx-auto px-5 mb-20 flex items-end justify-end">
         <Link
           to="/blog"
+          
           className="bg-white dark:bg-slate-800 dark:hover:bg-slate-700 py-2 px-10 rounded shadow  text-slate-800 dark:text-slate-400  hover:opacity-75 transition-all duration-200"
         >
           Read All Blog Posts
